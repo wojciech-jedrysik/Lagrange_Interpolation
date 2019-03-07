@@ -4,8 +4,9 @@
 def main():
     pointsCount = int(input("Enter the number of points: "))
 
-    if pointsCount < 0:
+    if pointsCount < 2:
         print("Not enough points.")
+        input()
         exit()
 
     x_list = []
